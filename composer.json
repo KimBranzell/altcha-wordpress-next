@@ -1,5 +1,5 @@
 {
-    "name": "altcha/altcha",
+    "name": "altcha/altcha-wordpress-next",
     "description": "ALTCHA for WordPress v2 is the professional solution for keeping your website safe from spam, bots, and abuse.",
     "type": "wordpress-plugin",
     "require": {

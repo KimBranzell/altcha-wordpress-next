@@ -1,0 +1,26 @@
+{
+    "name": "altcha/altcha",
+    "description": "ALTCHA for WordPress v2 is the professional solution for keeping your website safe from spam, bots, and abuse.",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.3"
+    },
+    "authors": [
+        {
+            "name": "Altcha",
+            "email": ""
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
